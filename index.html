@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header id="Home-info">
+        <nav>
+            <div class="left">Pulkit's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="#Home-info">Home</a></li>
+                    <li><a href="#About-info">About</a></li>
+                    <li><a href="#Projects-info">Projects</a></li>
+                    <li><a href="#Contact-info">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="About-info" class="firstsection">
+            <div class="leftsection"><img src="images/bgimg.jpg" alt="Image Not Found"></div>
+            <div class="rightsection">Hello , My name is <span class="purple">Pulkit</span>
+                <div>and i am a</div><span id="element" class="purple"></span>
+            </div>
+        </div>
+
+        <hr>
+        <div class="secondsection">
+            <h1 id="Projects-info">Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-1" src="images/workexp-1-img.png" alt="Image Not Found">
+                    <div class="vertical-title-1">
+                        Java Developer
+                    </div>
+                    <div class="vertical-desc-1">
+                        Worked as a Java Developer Intern at estimated organisation named as CodeClause , Worked on
+                        Eclipse IDE and successed by creating two projects. <br><br>
+                        <ul>
+                            <li>Airline Reservation System</li>
+                            <li>Online Resume Builder</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+
+            </div>
+        </div>
+    </main>
+
+    <footer id="Contact-info" class="footer">
+        <div class="first-footer">
+            <img src="images/gmail.png" alt="Image Not Found"
+            width="48px" height="44px">
+            <ul>
+                <li>ahujapulkit141@gmail.com</li>
+            </ul>  
+        </div>
+        <div class="second-footer">
+            <a href="https://www.linkedin.com/in/pulkit-ahuja-907876198"><img src="images/linkkedIn.png" alt="Image Not Found"
+                    width="50px"></a>
+        </div>
+        <div class="third-footer">
+            <a href="https://github.com/pulkitahuja0103"><img src="images/github.png" alt="Image Not Found" width="50px"></a>
+        </div>
+        <div class="fourth-footer">
+            <a href="https://instagram.com/__pulkit.ahuja_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img
+                    src="images/instagram.jpeg" alt="Image Not Found" width="50px"></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+     
+</body>
+
+</html>

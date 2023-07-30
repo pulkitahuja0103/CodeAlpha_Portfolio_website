@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(183, 162, 132);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 70px;
+    
+    
+}
+
+nav div ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav div ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav div ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+nav div ul li a:hover {
+
+    color: rgb(154, 162, 170);
+    font-size: 17px;
+}
+
+
+.left {
+
+    font-size: 30px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0px;
+
+}
+
+.firstsection>div {
+    width: 35%;
+
+}
+
+
+.rightsection {
+
+    font-size: 3rem;
+
+}
+.leftsection img {
+
+    width: 60%;
+    margin: 70px 30px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(189, 123, 43);
+    height: 2px;
+    margin: 15px 80px;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px;
+}
+
+.image-1 {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title-1 {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    right: 40px;
+    text-decoration: underline;
+}
+
+.vertical-desc-1 {
+    position: relative;
+    top: 86px;
+    width: 150px;
+    font-size: 10px;
+    color: rgb(148, 88, 20);
+    right: 40px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(131, 74, 6);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+}
+
+.footer>div {
+    width: 300px;
+}
+
+.first-footer img {
+    border: 6px solid black;
+    border-radius: 10px;
+}
+.first-footer li{
+    padding: 0px 12px;
+   list-style: none;
+   position: relative;
+   right: 65px;
+}
+
+.second-footer img {
+    border: 6px solid black;
+    border-radius: 10px;
+}
+
+.third-footer img {
+    border: 6px solid black;
+    border-radius: 10px;
+}
+
+.fourth-footer img {
+    border: 6px solid black;
+    border-radius: 10px;
+}
